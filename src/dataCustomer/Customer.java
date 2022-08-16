@@ -56,7 +56,7 @@ public class Customer {
     public void setPremiumMemberShip(boolean premiumMemberShip) {
         this.premiumMemberShip = premiumMemberShip;
     }
-    public void DisplayDetails(){
+    public void displayDetails(){
         System.out.println("getName() = " + getName());
         System.out.println("getAddress() = " + getAddress());
         System.out.println("getEmailId() = " + getEmailId());
